@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Спецтрансстрой — логотип и баннер, пример</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#0f1826;--card:#16223a;--line:#22304a;--txt:#eef1f5;--mut:#8f9aab;--acc:#f0661a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.55 "Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+header{padding:56px 0 28px;border-bottom:1px solid var(--line)}
+.tag{color:var(--acc);font-size:13px;letter-spacing:.25em;text-transform:uppercase;font-weight:600}
+h1{font-size:clamp(30px,5vw,48px);margin:10px 0 8px;letter-spacing:.02em}
+.lead{color:var(--mut);max-width:720px;margin:0}
+section{padding:44px 0;border-bottom:1px solid var(--line)}
+h2{font-size:22px;margin:0 0 6px;display:flex;align-items:center;gap:12px}
+h2 span{color:var(--acc);font-size:14px;letter-spacing:.2em}
+.sub{color:var(--mut);margin:0 0 22px;max-width:760px}
+.shot{display:block;width:100%;border-radius:14px;border:1px solid var(--line);background:#000}
+a.zoom{display:block;cursor:zoom-in}
+.refs{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px}
+.refs a{border-radius:12px;overflow:hidden;border:1px solid var(--line);background:#000;display:flex;align-items:center;justify-content:center;aspect-ratio:1}
+.refs a.big{grid-row:span 2;aspect-ratio:auto}
+.refs img{width:100%;height:100%;object-fit:cover}
+.refs a.big img{object-fit:contain}
+.cap{color:var(--mut);font-size:14px;margin-top:10px}
+ul.pts{margin:18px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+ul.pts li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;color:#cfccc5;font-size:15px}
+ul.pts b{color:var(--txt);display:block;margin-bottom:2px}
+footer{padding:32px 0 48px;color:var(--mut);font-size:14px}
+.lb{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;z-index:9;overscroll-behavior:contain;cursor:zoom-out}
+.lb.on{display:flex}
+.lb img{max-width:96vw;max-height:94vh;border-radius:8px}
+body.lock{overflow:hidden}
+@media(max-width:700px){.refs{grid-template-columns:1fr 1fr}.refs a.big{grid-column:span 2;grid-row:auto}}
+.two{display:grid;grid-template-columns:4fr 3fr;gap:16px;align-items:start}@media(max-width:700px){.two{grid-template-columns:1fr}}
+</style></head>
+<body>
+<header><div class="wrap">
+  <div class="tag">пример · Спецтрансстрой</div>
+  <h1>Логотип и баннер для Авито — пример</h1>
+  <p class="lead">Набросок под вашу задачу: три направления логотипа в тёмно-синем с оранжевым акцентом и баннер в двух форматах</p>
+</div></header>
+
+<main class="wrap">
+<section>
+  <h2><span>01</span>Монограмма</h2>
+  <p class="sub">Буквы СТС на плашке со срезанным углом. Самый строгий вариант, полное название идёт рядом</p>
+  <a class="zoom" href="img/c1.jpg"><img class="shot" src="img/c1.jpg" alt="Концепт 1"></a>
+</section>
+<section>
+  <h2><span>02</span>Ковш</h2>
+  <p class="sub">Буква С в профиле ковша, нижняя кромка с зубом в оранжевом. Узнаётся как техника, но без рисунка экскаватора</p>
+  <a class="zoom" href="img/c2.jpg"><img class="shot" src="img/c2.jpg" alt="Концепт 2"></a>
+</section>
+<section>
+  <h2><span>03</span>Стрела</h2>
+  <p class="sub">Платформа и поднятая стрела, название в две строки, акцент на слове "строй"</p>
+  <a class="zoom" href="img/c3.jpg"><img class="shot" src="img/c3.jpg" alt="Концепт 3"></a>
+</section>
+<section>
+  <h2><span>04</span>Маленький размер</h2>
+  <p class="sub">Знаки в реальном размере 100×100 и 48×48, в квадрате и в круге, как аватар на Авито</p>
+  <a class="zoom" href="img/small.jpg"><img class="shot" src="img/small.jpg" alt="Знаки в маленьком размере"></a>
+</section>
+<section>
+  <h2><span>05</span>Баннер для Авито</h2>
+  <p class="sub">1200×900 и 1080×1080, здесь с логотипом второго концепта. Слоган разбит на три плашки, фон в фирменных цветах без фото</p>
+  <div class="two">
+    <a class="zoom" href="img/b43.jpg"><img class="shot" src="img/b43.jpg" alt="Баннер 1200×900"></a>
+    <a class="zoom" href="img/b11.jpg"><img class="shot" src="img/b11.jpg" alt="Баннер 1080×1080"></a>
+  </div>
+  <ul class="pts">
+    <li><b>Логотип</b>Выбранный вариант в кривых: SVG, AI, EPS, PNG на прозрачном фоне, горизонтальная и квадратная версии, монохром</li>
+    <li><b>Баннер</b>PNG и JPG в двух форматах и PSD, где текст плашек меняется как обычный текстовый слой</li>
+    <li><b>Шрифты</b>Свободные, с кириллицей, можно использовать в коммерции без отчислений</li>
+  </ul>
+</section>
+</main>
+
+<footer><div class="wrap">Пример к заказу на Kwork · все изображения можно открыть крупно</div></footer>
+
+<div class="lb" id="lb"><img alt=""></div>
+<script>
+const lb=document.getElementById('lb'),li=lb.querySelector('img');
+document.querySelectorAll('a.zoom').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();li.src=a.href;lb.classList.add('on');document.body.classList.add('lock')}));
+lb.addEventListener('click',()=>{lb.classList.remove('on');document.body.classList.remove('lock')});
+</script>
+</body></html>
